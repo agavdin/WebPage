@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Какая-то страница</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<form action="" method="post">
-    <input type="text" name="name" id="name" placeholder="Введите логин">
-    <input type="password" name="pswrd" id="pass" placeholder="Введите пороль">
-    <input type="submit" name="submit" id="submit" value="Войти">
+<form class="form">
+    <h1><class="form__title">Вход</h1>
+    <div class="form__group">
+        <input class="form__input">
+        <label class="form__label">Логин</label>
+    </div>
+
+    <div class="form__group">
+        <input class="form__input">
+        <label class="form__label">Пароль</label>
+    </div>
+
+    <button class="form__button">Войти</button>
+
 </form>
 
 </body>
